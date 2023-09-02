@@ -1,0 +1,71 @@
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.AdminPrincipal, BibliotecasPrincipal, RecepcionPrincipal, SolicitudesPrincipal, TransportePrincipal {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.AdminPrincipal h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.AdminPrincipal p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.AdminPrincipal .botones button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.AdminPrincipal .botones button:last-child {
+  margin-bottom: 0;
+}
+
+.AdminPrincipal .botones button:hover {
+  background-color: #45a049;
+}
+
+
+
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #45a049;
+}

@@ -1,0 +1,67 @@
+
+/* 
+    Created on : 2 sep 2023, 12:15:47
+    Author     : moisibot
+*/
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.Inicio{
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.Inicio h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Inicio p {
+    font-size: 14px;
+    color: #999;
+    margin-top: 5px;
+}
+
+.Inicio label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+    text-align: left;
+}
+
+.Inicio input[type="text"],
+.Inicio input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.Inicio input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.Inicio input[type="submit"]:hover {
+    background-color: #45a049;
+}
