@@ -2,6 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
+<html>
 <head>
     <title>AdminPrincipal</title>
     <link rel="stylesheet" type="text/css" href="admin.css">
@@ -11,10 +12,11 @@
         <h1>Bienvenido Administrador</h1>
         <p>Selecciona una opción:</p>
         <div class="botones">
-            <button onclick="RecepcionPrincipal()">Recepcionistas</button>
-            <button onclick="TransportePrincipal()">Transportistas</button>
-            <button onclick="BibliotecasPrincipal()">Bibliotecas</button>
-            <button onclick="SolicitudesPrincipal()">Solicitudes</button>
+            <input type="button" value="Recepcionistas" onclick="RecepcionPrincipal()">
+            <input type="button" value="Transportistas" onclick="TransportePrincipal()">
+            <input type="button" value="Bibliotecas" onclick="BibliotecasPrincipal()">
+            <input type="button" value="Solicitudes" onclick="SolicitudesPrincipal()">
+            <input type="button" value="Reportes" onclick="ReportesPrincipal()">
         </div>
     </div>
 
@@ -30,6 +32,9 @@
         }
         function SolicitudesPrincipal() {
             window.location.href = "../Principales/SolicitudesPrincipal.jsp";
+        }
+          function ReportesPrincipal() {
+            window.location.href = "../Principales/ReportesPrincipal.jsp";
         }
     </script>
 </body>

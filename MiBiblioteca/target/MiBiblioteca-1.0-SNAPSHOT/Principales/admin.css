@@ -1,11 +1,9 @@
-
-
 body {
   font-family: Arial, sans-serif;
   background-color: #f2f2f2;
 }
 
-.AdminPrincipal, BibliotecasPrincipal, RecepcionPrincipal, SolicitudesPrincipal, TransportePrincipal {
+.AdminPrincipal {
   max-width: 600px;
   margin: 100px auto;
   padding: 40px;
@@ -24,7 +22,7 @@ body {
   margin-bottom: 30px;
 }
 
-.AdminPrincipal .botones button {
+.AdminPrincipal .botones input[type="button"] {
   display: block;
   width: 100%;
   padding: 10px;
@@ -37,21 +35,18 @@ body {
   margin-bottom: 10px;
 }
 
-.AdminPrincipal .botones button:last-child {
+.AdminPrincipal .botones input[type="button"]:last-child {
   margin-bottom: 0;
 }
 
-.AdminPrincipal .botones button:hover {
+.AdminPrincipal .botones input[type="button"]:hover {
   background-color: #45a049;
 }
-
-
-
 
 .container {
   max-width: 800px;
   margin: 0 auto;
-  padding: 20px;
+  padding: 80px;
 }
 
 .button {
@@ -69,3 +64,97 @@ body {
 .button:hover {
   background-color: #45a049;
 }
+
+.btn-regresar {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/*Recepcionista.css*/
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.container {
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+a {
+  display: inline-block;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
