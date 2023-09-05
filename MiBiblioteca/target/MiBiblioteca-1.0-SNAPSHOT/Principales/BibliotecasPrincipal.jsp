@@ -6,11 +6,12 @@
     <title>BibliotecasPrincipal</title>
     <link rel="stylesheet" type="text/css" href="admin.css">
 </head>
-<body>
+<body>  
+    <div class="container">
     <h1>bibliotecas!</h1>
     <p>Selecciona una opción:</p>
     
-    <div class="container">
+
         <h2>Gestión de listado de libros</h2>
        <table>
             <thead>

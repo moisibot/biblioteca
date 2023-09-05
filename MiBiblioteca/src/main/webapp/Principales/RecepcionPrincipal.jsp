@@ -26,7 +26,9 @@
                     <th>Estado</th>
                 </tr>
             </thead>
-            <tbody>
+
+        </table> 
+        <tbody>
                 <tr>
                         <a href="editarUsuario.jsp?id=1">Editar</a>
                         <a href="inactivarUsuario.jsp?id=1">Inactivar</a>
@@ -34,7 +36,6 @@
                    
                 </tr>
             </tbody>
-        </table>
         <h2>Agregar nuevo usuario</h2>
         <form action="agregarUsuario.jsp" method="post">
              <label for="id">ID</label>

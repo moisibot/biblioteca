@@ -2,7 +2,7 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
-<html>
+
 <head>
     <title>AdminPrincipal</title>
     <link rel="stylesheet" type="text/css" href="admin.css">
@@ -15,7 +15,7 @@
             <input type="button" value="Recepcionistas" onclick="RecepcionPrincipal()">
             <input type="button" value="Transportistas" onclick="TransportePrincipal()">
             <input type="button" value="Bibliotecas" onclick="BibliotecasPrincipal()">
-            <input type="button" value="Solicitudes" onclick="SolicitudesPrincipal()">
+            <input type="button" value="Solicitudes de Revocacion" onclick="SolicitudesPrincipal()">
             <input type="button" value="Reportes" onclick="ReportesPrincipal()">
         </div>
     </div>
