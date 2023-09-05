@@ -1,6 +1,6 @@
 
 
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -27,7 +27,8 @@
                 </tr>
             </thead>
 
-        </table> 
+        </table>
+        
         <tbody>
                 <tr>
                         <a href="editarUsuario.jsp?id=1">Editar</a>
@@ -36,6 +37,7 @@
                    
                 </tr>
             </tbody>
+            
         <h2>Agregar nuevo usuario</h2>
         <form action="agregarUsuario.jsp" method="post">
              <label for="id">ID</label>

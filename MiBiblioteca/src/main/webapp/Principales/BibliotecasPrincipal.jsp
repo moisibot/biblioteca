@@ -37,8 +37,13 @@
 
         <h2>Agregar nuevo libro</h2>     
         <form action="agregarLibro.jsp" method="post">
+            
+              <label for="isbn">ISBN:</label>
+            <input type="text" id="isbn" name="isbn" required><br>
+            
             <label for="titulo">Título:</label>
             <input type="text" id="titulo" name="titulo" required><br>
+            
             <label for="autor">Autor:</label>
             <input type="text" id="autor" name="autor" required><br>
             <input type="submit" value="Agregar libro">
@@ -48,13 +53,26 @@
         <form action="ajustarUnidades.jsp" method="post">
             <label for="libro">Seleccione un libro:</label>
             <select id="libro" name="libro" required>
-               <option value="1">Libro 1</option>
-           </select><br>
+               <option value="1">isebene</option>
+           </select>
+              <br>
+              <br>
+               <label for="libro">Seleccione una biblioteca: </label>
+               <select id="biblioteca" name="biblioteca" required>
+               <option value="1">Biblioteca 1</option>
+               <option value="1">Biblioteca 2</option>
+               <option value="1">Biblioteca 3</option>
+               <option value="1">Biblioteca 4</option>
+               
+           </select>
+            <br>
             <label for="unidades">Unidades:</label>
             <input type="number" id="unidades" name="unidades" required><br>
+            
             <label for="motivo">Motivo del ajuste:</label>
             <input type="text" id="motivo" name="motivo" required><br>
             <input type="submit" value="Realizar ajuste">
+            
         </form>
         <a href="AdminPrincipal.jsp" class="btn-regresar">Regresar</a>
     </div>

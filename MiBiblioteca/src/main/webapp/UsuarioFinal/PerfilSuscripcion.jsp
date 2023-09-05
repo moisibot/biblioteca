@@ -38,6 +38,12 @@
         <input type="number" id="monto" name="monto">
         <input type="submit" value="Recargar Saldo">
     </form>
+        <h2>Pagar Multa</h2>
+    <form action="Pagar.jsp" method="post">
+        <label for="monto">Monto:</label>
+        <input type="number" id="monto" name="monto">
+        <input type="submit" value="Pagar">
+    </form>
    <a href="MenuUsuario.jsp" class="btn-regresar">Regresar</a>
   </div>
 </body>

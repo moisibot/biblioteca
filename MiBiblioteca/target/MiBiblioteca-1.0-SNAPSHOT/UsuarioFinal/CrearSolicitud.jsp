@@ -19,9 +19,7 @@
         <label for="autor">Autor:</label>
         <input type="text" id="autor" name="autor">
         <br>
-         <label for="isbn">ISBN</label>
-        <input type="text" id="isbn" name="isbn">
-         <br>
+      
         <input type="submit" value="Buscar Libro">
     </form>
   
@@ -40,19 +38,21 @@
             <select id="biblioteca" name="biblioteca">
                 <option value="">Seleccione una biblioteca</option>
                 <%-- for (Biblioteca biblioteca : bibliotecasDisponibles) { --%>
-                    <option value="<%--= biblioteca.getId() %>"><%= biblioteca.getNombre() --%> "</option>
+                    <option value="<%--= biblioteca.getId() --%>"><%--= biblioteca.getNombre() --%> "</option>
                 <%-- } --%>
             </select>
             
-            <br>
+               <br>
             <label for="diasPrestamo">Días de préstamo:</label>
-            <input type="number" id="diasPrestamo" name="diasPrestamo">
+            <input type="number" id="diasPrestamo" name="diasPrestamo" min="1" max="8">
             <br>
             <label for="opcionesEntrega">Opciones de entrega:</label>
+            
             <select id="opcionesEntrega" name="opcionesEntrega">
                 <option value="recoger">Recoger en tienda</option>
                 <option value="entrega">Entrega a domicilio</option>
             </select>
+            
             <br>
             <input type="submit" value="Crear Solicitud">
         </form>

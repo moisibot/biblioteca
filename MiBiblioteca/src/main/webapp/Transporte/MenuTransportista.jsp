@@ -9,7 +9,7 @@
    
 </head>
 <body>
-    <div class="container">
+    <div class="MenuTransportista">
         <h1>Bienvenido Transportista</h1>
         <div class="botones">
         
@@ -17,7 +17,8 @@
        
             <input type="button" value="Transporte a Bibliotecas" onclick="TransporteBibliotecas()">
             <input type="button" value="Transporte a Usuarios" onclick="TransporteUsuario()">
-          
+          </div>
+      </div>
      
     <script>
         function TransporteBibliotecas() {       
@@ -29,8 +30,7 @@
      
         
     </script>
-       </div>
-      </div>
+       
     
     
   

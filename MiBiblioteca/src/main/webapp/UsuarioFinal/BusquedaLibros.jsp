@@ -19,9 +19,7 @@
         <label for="categoria">Categoría:</label>
         <input type="text" id="categoria" name="categoria">
         <br>
-        <label for="isbn">ISBN:</label>
-        <input type="text" id="isbn" name="isbn">
-        <br>
+        
         <label for="biblioteca">Biblioteca:</label>
         <select id="biblioteca" name="biblioteca">
             <option value="">Todas las bibliotecas</option>
@@ -51,7 +49,8 @@
                     </ul>
                     <form action="iniciarSolicitud.jsp" method="post">
                         <input type="hidden" name="idLibro" value="<%--= libro.getId() --%>">
-                        <input type="submit" value="Iniciar Solicitud">
+           
+                        <a href="CrearSolicitud.jsp" class="btn-regresar">Iniciar Solicitud</a>
                     </form>
                 </li>
             <%-- } %>

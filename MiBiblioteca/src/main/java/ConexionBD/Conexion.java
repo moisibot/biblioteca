@@ -25,7 +25,7 @@ public class Conexion {
             Class.forName("com.mysql.cj.jdbc.Driver");
             
             conexion = DriverManager.getConnection(URL, USER, PASS);
-          System.out.println("ci");
+          System.out.println("");
         } catch (SQLException ex) {
             System.err.println("error en conexion sql");
         } catch (ClassNotFoundException ex) {

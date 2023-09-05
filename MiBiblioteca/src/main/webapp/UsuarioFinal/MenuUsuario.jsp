@@ -1,5 +1,5 @@
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %><!DOCTYPE html>
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -8,24 +8,40 @@
     </head>
     
     <body>
-      <div class = "container">   
+      <div class = "MenuUsuario">   
             <h1>Bienvenido usuario</h1>
-           <div class="botones">
+     
             
-            
-             <a href="BusquedaLibros.jsp" class="btn-regresar">Buscar Libros</a>  <br>
-             <a href="CrearRevocacion.jsp" class="btn-regresar">Crear Solicitud de Revocacion</a>  <br>
-             <a href="CrearSolicitud.jsp" class="btn-regresar">Crear solicitud de Prestamo</a>  <br>
-             <a href="PerfilSuscripcion.jsp" class="btn-regresar">Entrar a perfil</a>  <br>
-             <a href="PrestamosActivos.jsp" class="btn-regresar">Revisar Prestamos</a> <br>
-             <a href="Reportes.jsp" class="btn-regresar">Reportes</a> <br>
-             
-         
-             <br>
-           
-          
+                 <div class="botones">
+                     
+            <input type="button" value="Buscar Libros" onclick="BusquedaLibros()">       
+            <input type="button" value="Crear Solicitud de Revocacion" onclick="CrearRevocacion()">
+            <input type="button" value="Crear solicitud de Prestamo" onclick="CrearSolicitud()">
+            <input type="button" value="Entrar a perfil" onclick="PerfilSuscripcion()">
+            <input type="button" value="Revisar Prestamos" onclick="PrestamosActivos()">
+            <input type="button" value="Reportes" onclick="Reportes()">
         </div>
-        </div>
+    </div>
 
+    <script>
+        function BusquedaLibros() {       
+            window.location.href = "../UsuarioFinal/BusquedaLibros.jsp";
+        }
+        function CrearRevocacion() {
+            window.location.href = "../UsuarioFinal/CrearRevocacion.jsp";
+        }
+                function CrearSolicitud() {
+            window.location.href = "../UsuarioFinal/CrearSolicitud.jsp";
+        }
+                function PerfilSuscripcion() {
+            window.location.href = "../UsuarioFinal/PerfilSuscripcion.jsp";
+        }
+                function PrestamosActivos() {
+            window.location.href = "../UsuarioFinal/PrestamosActivos.jsp";
+        }
+             function Reportes() {
+            window.location.href = "../UsuarioFinal/Reportes.jsp";
+             }
+           </script>
     </body>
 </html>

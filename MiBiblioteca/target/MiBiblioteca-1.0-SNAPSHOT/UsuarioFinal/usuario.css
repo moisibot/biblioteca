@@ -22,7 +22,7 @@ body {
   margin-bottom: 30px;
 }
 
-.botones input[type="button"] {
+.MenuUsuario .botones input[type="button"] {
   display: block;
   width: 100%;
   padding: 10px;
@@ -35,11 +35,11 @@ body {
   margin-bottom: 10px;
 }
 
-.botones input[type="button"]:last-child {
+.MenuUsuario .botones input[type="button"]:last-child {
   margin-bottom: 0;
 }
 
- .botones input[type="button"]:hover {
+.MenuUsuario .botones input[type="button"]:hover {
   background-color: #45a049;
 }
 
