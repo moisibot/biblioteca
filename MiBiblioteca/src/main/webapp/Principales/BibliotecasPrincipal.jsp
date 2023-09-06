@@ -9,6 +9,7 @@
 <body>  
     <div class="container">
     <h1>bibliotecas!</h1>
+  
     <p>Selecciona una opción:</p>
     
 
@@ -36,7 +37,7 @@
         </table>
 
         <h2>Agregar nuevo libro</h2>     
-        <form action="agregarLibro.jsp" method="post">
+        <form action="svBibliotecasPrincipal" method="POST">
             
               <label for="isbn">ISBN:</label>
             <input type="text" id="isbn" name="isbn" required><br>
@@ -46,6 +47,7 @@
             
             <label for="autor">Autor:</label>
             <input type="text" id="autor" name="autor" required><br>
+            
             <input type="submit" value="Agregar libro">
         </form>
 
